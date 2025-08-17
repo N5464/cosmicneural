@@ -10,6 +10,7 @@ import TheVaultSanctum from './components/TheVaultSanctum';
 import TheArchiveChamber from './components/TheArchiveChamber';
 import TheNexusStream from './components/TheNexusStream';
 import TheConfigurationSanctum from './components/TheConfigurationSanctum';
+import TheGatewayPortal from './components/TheGatewayPortal';
 
 const App: React.FC = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -41,6 +42,8 @@ const App: React.FC = () => {
         <TheNexusStream />
       ) : activeContent === 'Configuration Sanctum' ? (
         <TheConfigurationSanctum />
+      ) : activeContent === 'The Gateway Portal' ? (
+        <TheGatewayPortal />
       ) : (
         <>
           {/* Default Home State - Empty with just the menu button */}

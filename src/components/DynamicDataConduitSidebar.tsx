@@ -89,10 +89,10 @@ const DynamicDataConduitSidebar: React.FC<SidebarProps> = ({ isOpen, setIsOpen, 
       dataFlow: 'STREAM_008'
     },
     { 
-      icon: Infinity, 
-      label: 'Gateway Portal', 
+      icon: Infinity,
+      label: 'The Gateway Portal',
       description: 'External connection hub',
-      color: 'from-indigo-200/20 via-violet-300/25 to-cyan-200/20',
+      color: 'from-fuchsia-500/25 via-magenta-400/20 to-purple-500/25',
       dataFlow: 'STREAM_009'
     },
   ];
