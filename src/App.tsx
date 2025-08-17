@@ -53,7 +53,7 @@ const App: React.FC = () => {
       {/* Sidebar Toggle Button - Always visible */}
       {!activeContent && (
         <button
-          className="fixed top-4 left-4 z-50 p-3 rounded-none bg-slate-800/50 hover:bg-slate-700/50 border border-cyan-400/30 hover:border-cyan-400/50 transition-all duration-300 group backdrop-blur-md"
+          className="fixed top-4 left-4 z-50 p-4 triangle-button bg-slate-800/50 hover:bg-slate-700/50 border-2 border-cyan-400/30 hover:border-cyan-400/50 transition-all duration-300 group backdrop-blur-md shadow-lg shadow-cyan-400/30 w-16 h-16"
           onClick={() => setIsSidebarOpen(true)}
           aria-label="Open navigation"
         >
@@ -64,7 +64,7 @@ const App: React.FC = () => {
       {/* Back to Home Button - Show when content is active */}
       {activeContent && (
         <button
-          className="fixed top-4 left-4 z-50 p-3 rounded-none bg-slate-800/50 hover:bg-slate-700/50 border border-cyan-400/30 hover:border-cyan-400/50 transition-all duration-300 group backdrop-blur-md"
+          className="fixed top-4 left-4 z-50 p-4 triangle-button bg-slate-800/50 hover:bg-slate-700/50 border-2 border-cyan-400/30 hover:border-cyan-400/50 transition-all duration-300 group backdrop-blur-md shadow-lg shadow-cyan-400/30 w-16 h-16"
           onClick={() => setActiveContent(null)}
           aria-label="Back to home"
         >
