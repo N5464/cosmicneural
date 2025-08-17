@@ -9,6 +9,7 @@ import TheOraclesDen from './components/TheOraclesDen';
 import TheVaultSanctum from './components/TheVaultSanctum';
 import TheArchiveChamber from './components/TheArchiveChamber';
 import TheNexusStream from './components/TheNexusStream';
+import TheConfigurationSanctum from './components/TheConfigurationSanctum';
 
 const App: React.FC = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -38,6 +39,8 @@ const App: React.FC = () => {
         <TheArchiveChamber />
       ) : activeContent === 'The Nexus Stream' ? (
         <TheNexusStream />
+      ) : activeContent === 'Configuration Sanctum' ? (
+        <TheConfigurationSanctum />
       ) : (
         <>
           {/* Default Home State - Empty with just the menu button */}
