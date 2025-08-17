@@ -354,37 +354,3 @@
   animation: inner-ring-rotate 25s linear infinite;
   transform-origin: center;
 }
-/* Triangular Button Styling */
-.triangle-button {
-  clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
-
-.triangle-button::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: inherit;
-  clip-path: inherit;
-  z-index: -1;
-}
-
-.triangle-button:hover {
-  filter: drop-shadow(0 0 12px rgba(6, 182, 212, 0.6)) drop-shadow(0 0 24px rgba(6, 182, 212, 0.3));
-}
-
-@keyframes triangle-glow-pulse {
-  0%, 100% {
-    filter: drop-shadow(0 0 8px rgba(6, 182, 212, 0.4));
-  }
-  50% {
-    filter: drop-shadow(0 0 16px rgba(6, 182, 212, 0.6)) drop-shadow(0 0 32px rgba(6, 182, 212, 0.2));
-  }
-}
-
-.triangle-button {
-  animation: triangle-glow-pulse 4s ease-in-out infinite;
-}
