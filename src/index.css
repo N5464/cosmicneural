@@ -216,3 +216,141 @@
 .core-pulse {
   animation: ancient-pulse 2s ease-in-out infinite;
 }
+
+/* Nexus Eye Icon Animations */
+.nexus-eye-icon {
+  transition: all 0.3s ease;
+}
+
+.nexus-eye-icon:hover {
+  filter: drop-shadow(0 0 12px rgba(6, 182, 212, 0.8)) drop-shadow(0 0 24px rgba(6, 182, 212, 0.4));
+}
+
+@keyframes nexus-eye-pulse {
+  0%, 100% {
+    opacity: 0.7;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.02);
+  }
+}
+
+@keyframes iris-glow {
+  0%, 100% {
+    opacity: 0.6;
+    filter: drop-shadow(0 0 4px rgba(6, 182, 212, 0.3));
+  }
+  50% {
+    opacity: 0.9;
+    filter: drop-shadow(0 0 8px rgba(6, 182, 212, 0.6));
+  }
+}
+
+@keyframes pupil-core-pulse {
+  0%, 100% {
+    opacity: 0.9;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+}
+
+@keyframes energy-node-pulse {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.2);
+  }
+}
+
+@keyframes neural-line-flicker {
+  0%, 100% {
+    opacity: 0.4;
+  }
+  25% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  75% {
+    opacity: 0.9;
+  }
+}
+
+@keyframes rune-flicker {
+  0%, 100% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+@keyframes outer-ring-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes inner-ring-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+/* Apply animations to Nexus Eye elements */
+.outer-eye-pulse {
+  animation: nexus-eye-pulse 3s ease-in-out infinite;
+}
+
+.inner-eye-pulse {
+  animation: nexus-eye-pulse 2.5s ease-in-out infinite;
+}
+
+.iris-glow {
+  animation: iris-glow 4s ease-in-out infinite;
+}
+
+.iris-ring-pulse {
+  animation: nexus-eye-pulse 2s ease-in-out infinite;
+}
+
+.pupil-core-pulse {
+  animation: pupil-core-pulse 1.5s ease-in-out infinite;
+}
+
+.neural-line-flicker {
+  animation: neural-line-flicker 3s ease-in-out infinite;
+}
+
+.rune-flicker {
+  animation: rune-flicker 4s ease-in-out infinite;
+}
+
+.energy-node-pulse {
+  animation: energy-node-pulse 2.5s ease-in-out infinite;
+}
+
+.outer-ring-rotate {
+  animation: outer-ring-rotate 30s linear infinite;
+  transform-origin: center;
+}
+
+.inner-ring-rotate {
+  animation: inner-ring-rotate 25s linear infinite;
+  transform-origin: center;
+}

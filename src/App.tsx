@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import NeuralNexusBackground from './components/NeuralNexusBackground';
 import DynamicDataConduitSidebar from './components/DynamicDataConduitSidebar';
-import AncientGlyphMenuIcon from './components/AncientGlyphMenuIcon';
+import NexusEyeIcon from './components/NexusEyeIcon';
 import TheObservatory from './components/TheObservatory';
 import TheTribunalChamber from './components/TheTribunalChamber';
 import TheConclaveHall from './components/TheConclaveHall';
@@ -57,7 +57,7 @@ const App: React.FC = () => {
           onClick={() => setIsSidebarOpen(true)}
           aria-label="Open navigation"
         >
-          <AncientGlyphMenuIcon size={24} className="text-cyan-400 group-hover:text-cyan-300 transition-all duration-300 group-hover:scale-110" />
+          <NexusEyeIcon size={24} className="text-cyan-400 group-hover:text-cyan-300 transition-all duration-300 group-hover:scale-110" />
         </button>
       )}
 
@@ -68,7 +68,7 @@ const App: React.FC = () => {
           onClick={() => setActiveContent(null)}
           aria-label="Back to home"
         >
-          <AncientGlyphMenuIcon size={24} className="text-cyan-400 group-hover:text-cyan-300 transition-all duration-300 group-hover:scale-110" />
+          <NexusEyeIcon size={24} className="text-cyan-400 group-hover:text-cyan-300 transition-all duration-300 group-hover:scale-110" />
         </button>
       )}
 
