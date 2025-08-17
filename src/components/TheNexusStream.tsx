@@ -297,14 +297,14 @@ const TheNexusStream: React.FC = () => {
           </div>
           
           {/* System Status Footer */}
-          <div className="mt-6 p-4 rounded-xl bg-gradient-to-r from-slate-900/60 to-slate-800/60 border border-cyan-400/15">
+          <div className="mt-6 p-4 rounded-xl bg-gradient-to-r from-slate-900/60 to-slate-800/60 border border-slate-300/15">
             <div className="flex items-center justify-between text-xs">
-              <span className="text-orange-400/70 font-mono">
+              <span className="text-slate-300/70 font-mono">
                 PANELS: {realTimeMonitoringPanels.length} | FEEDS: {mysticalRealTimeFeatures.length}
               </span>
               <div className="flex items-center space-x-2">
-                <div className="w-2 h-2 bg-orange-400/60 rounded-full animate-pulse"></div>
-                <span className="text-orange-400/70 font-mono">NEXUS STREAMING</span>
+                <div className="w-2 h-2 bg-slate-300/60 rounded-full animate-pulse"></div>
+                <span className="text-slate-300/70 font-mono">NEXUS STREAMING</span>
               </div>
             </div>
           </div>
