@@ -85,7 +85,7 @@ const DynamicDataConduitSidebar: React.FC<SidebarProps> = ({ isOpen, setIsOpen, 
       icon: Key, 
       label: 'Configuration Sanctum', 
       description: 'System parameter controls',
-      color: 'from-amber-200/20 via-honey-300/25 to-yellow-200/20',
+      color: 'from-slate-600/25 via-gray-500/20 to-zinc-600/25',
       dataFlow: 'STREAM_008'
     },
     { 
