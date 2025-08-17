@@ -15,7 +15,7 @@ const NexusEyeIcon: React.FC<NexusEyeIconProps> = ({
       height={size}
       viewBox="0 0 24 24"
       fill="none"
-      className={`nexus-eye-icon translate-x-[-2px] ${className}`}
+      className={`nexus-eye-icon translate-x-[-3px] ${className}`}
       xmlns="http://www.w3.org/2000/svg"
     >
       {/* Outer Eye Shape - Ancient Almond Form */}
