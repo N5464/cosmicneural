@@ -8,48 +8,48 @@ const TheNexusStream: React.FC = () => {
       title: 'Live Governance Activity Stream',
       icon: Activity,
       description: 'Real-time proposal submissions, votes, and discussions',
-      color: 'from-cyan-500/20 via-teal-400/15 to-blue-500/20',
-      borderColor: 'border-cyan-400/30'
+      color: 'from-slate-100/25 via-slate-200/20 to-slate-300/25',
+      borderColor: 'border-slate-300/40'
     },
     {
       id: 'system-health-monitoring',
       title: 'System Health Monitoring',
       icon: Monitor,
       description: 'All 9 stream performance and operational status',
-      color: 'from-emerald-500/20 via-teal-400/15 to-cyan-500/20',
-      borderColor: 'border-emerald-400/30'
+      color: 'from-slate-100/25 via-slate-200/20 to-slate-300/25',
+      borderColor: 'border-slate-300/40'
     },
     {
       id: 'community-pulse-tracker',
       title: 'Community Pulse Tracker',
       icon: Users,
       description: 'Real-time member engagement and activity levels',
-      color: 'from-blue-500/20 via-cyan-400/15 to-teal-500/20',
-      borderColor: 'border-blue-400/30'
+      color: 'from-slate-100/25 via-slate-200/20 to-slate-300/25',
+      borderColor: 'border-slate-300/40'
     },
     {
       id: 'neural-network-status',
       title: 'Neural Network Status',
       icon: Brain,
       description: 'AI consciousness and processing performance indicators',
-      color: 'from-violet-500/20 via-purple-400/15 to-indigo-500/20',
-      borderColor: 'border-violet-400/30'
+      color: 'from-slate-100/25 via-slate-200/20 to-slate-300/25',
+      borderColor: 'border-slate-300/40'
     },
     {
       id: 'alert-notification-center',
       title: 'Alert & Notification Center',
       icon: BellRing,
       description: 'Critical system alerts and governance emergencies',
-      color: 'from-red-500/20 via-rose-400/15 to-pink-500/20',
-      borderColor: 'border-red-400/30'
+      color: 'from-slate-100/25 via-slate-200/20 to-slate-300/25',
+      borderColor: 'border-slate-300/40'
     },
     {
       id: 'cross-stream-intelligence',
       title: 'Cross-Stream Intelligence',
       icon: GitBranch,
       description: 'Real-time data flow between all 9 chambers',
-      color: 'from-cyan-500/20 via-teal-400/15 to-blue-500/20',
-      borderColor: 'border-cyan-400/30'
+      color: 'from-slate-100/25 via-slate-200/20 to-slate-300/25',
+      borderColor: 'border-slate-300/40'
     }
   ];
 
@@ -84,13 +84,13 @@ const TheNexusStream: React.FC = () => {
         <div className="relative mb-8 px-4 flex flex-col items-end lg:items-end lg:mb-0 lg:px-0 lg:ml-auto">
           {/* Waves Icon and The Nexus Stream Title */}
           <div className="flex items-center mb-2 justify-end lg:justify-end lg:space-x-2">
-            <div className="hidden lg:block p-3 rounded-xl bg-gradient-to-br from-slate-800/50 to-slate-900/50 border border-orange-400/30">
-              <Waves size={32} className="text-orange-400" />
+            <div className="hidden lg:block p-3 rounded-xl bg-gradient-to-br from-slate-800/50 to-slate-900/50 border border-slate-300/30">
+              <Waves size={32} className="text-slate-300" />
             </div>
             <h1 className="text-3xl font-bold text-white text-right">
               <span className="lg:hidden inline-flex items-center">
-                <div className="inline-block p-3 rounded-xl bg-gradient-to-br from-slate-800/50 to-slate-900/50 border border-orange-400/30 mr-2">
-                  <Waves size={32} className="text-orange-400" />
+                <div className="inline-block p-3 rounded-xl bg-gradient-to-br from-slate-800/50 to-slate-900/50 border border-slate-300/30 mr-2">
+                  <Waves size={32} className="text-slate-300" />
                 </div>
                 <span>THE</span>
               </span>
@@ -101,7 +101,7 @@ const TheNexusStream: React.FC = () => {
           
           {/* Real-time System Monitoring Command Center */}
           <div className="flex items-center justify-end lg:justify-end lg:space-x-4">
-            <p className="text-orange-400/80 text-lg text-right">Real-time System Monitoring Command Center</p>
+            <p className="text-slate-300/80 text-lg text-right">Real-time System Monitoring Command Center</p>
           </div>
         </div>
       </div>
@@ -113,16 +113,16 @@ const TheNexusStream: React.FC = () => {
           {/* Status Indicator */}
           <div className="flex items-center space-x-3 justify-end lg:justify-start lg:ml-0 lg:mb-10">
             <div className="flex items-center space-x-2">
-              <div className="w-3 h-3 bg-orange-400 rounded-full animate-pulse"></div>
-              <span className="text-orange-400 font-mono text-sm">STREAM_007 ACTIVE</span>
+              <div className="w-3 h-3 bg-slate-300 rounded-full animate-pulse"></div>
+              <span className="text-slate-300 font-mono text-sm">STREAM_007 ACTIVE</span>
             </div>
-            <div className="w-px h-4 bg-orange-400/30"></div>
-            <span className="text-orange-400/70 font-mono text-sm">SYSTEM PROTOCOLS SYNCHRONIZED</span>
+            <div className="w-px h-4 bg-slate-300/30"></div>
+            <span className="text-slate-300/70 font-mono text-sm">SYSTEM PROTOCOLS SYNCHRONIZED</span>
           </div>
           
           <div className="mb-6">
             <h2 className="text-xl font-semibold text-white mb-2">Core Real-Time Monitoring Panels</h2>
-            <p className="text-orange-400/70">Mystical live system monitoring and stream intelligence</p>
+            <p className="text-slate-300/70">Mystical live system monitoring and stream intelligence</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -138,41 +138,41 @@ const TheNexusStream: React.FC = () => {
                     <div className={`absolute inset-0 bg-gradient-to-br ${panel.color} opacity-0 group-hover:opacity-10 transition-opacity duration-300`}></div>
                     
                     {/* Pulsing Border Effect */}
-                    <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-transparent via-orange-400/10 to-transparent animate-pulse opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-transparent via-slate-300/10 to-transparent animate-pulse opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     
                     {/* Flowing Stream Background Pattern */}
                     <div className="absolute inset-0 overflow-hidden opacity-10 group-hover:opacity-20 transition-opacity duration-300">
                       <svg className="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
                         {/* Flowing stream lines */}
-                        <path d="M0,30 Q25,20 50,30 T100,30" stroke="currentColor" strokeWidth="0.5" fill="none" className="text-orange-400" />
-                        <path d="M0,50 Q30,40 60,50 T100,50" stroke="currentColor" strokeWidth="0.4" fill="none" className="text-red-400" />
-                        <path d="M0,70 Q20,60 40,70 T100,70" stroke="currentColor" strokeWidth="0.3" fill="none" className="text-yellow-400" />
+                        <path d="M0,30 Q25,20 50,30 T100,30" stroke="currentColor" strokeWidth="0.5" fill="none" className="text-slate-300" />
+                        <path d="M0,50 Q30,40 60,50 T100,50" stroke="currentColor" strokeWidth="0.4" fill="none" className="text-slate-200" />
+                        <path d="M0,70 Q20,60 40,70 T100,70" stroke="currentColor" strokeWidth="0.3" fill="none" className="text-slate-100" />
                         
                         {/* Data flow particles */}
-                        <circle cx="15" cy="32" r="0.8" fill="currentColor" className="text-orange-400 animate-pulse" />
-                        <circle cx="45" cy="48" r="0.6" fill="currentColor" className="text-red-400 animate-pulse" style={{ animationDelay: '0.3s' }} />
-                        <circle cx="75" cy="72" r="0.7" fill="currentColor" className="text-yellow-400 animate-pulse" style={{ animationDelay: '0.6s' }} />
-                        <circle cx="85" cy="28" r="0.5" fill="currentColor" className="text-orange-400 animate-pulse" style={{ animationDelay: '0.9s' }} />
+                        <circle cx="15" cy="32" r="0.8" fill="currentColor" className="text-slate-300 animate-pulse" />
+                        <circle cx="45" cy="48" r="0.6" fill="currentColor" className="text-blue-200 animate-pulse" style={{ animationDelay: '0.3s' }} />
+                        <circle cx="75" cy="72" r="0.7" fill="currentColor" className="text-green-200 animate-pulse" style={{ animationDelay: '0.6s' }} />
+                        <circle cx="85" cy="28" r="0.5" fill="currentColor" className="text-purple-200 animate-pulse" style={{ animationDelay: '0.9s' }} />
                         
                         {/* Stream connection nodes */}
-                        <rect x="10" y="25" width="4" height="4" rx="2" stroke="currentColor" strokeWidth="0.3" fill="none" className="text-orange-400" />
-                        <rect x="50" y="45" width="3" height="3" rx="1.5" stroke="currentColor" strokeWidth="0.3" fill="none" className="text-red-400" />
-                        <rect x="80" y="65" width="3.5" height="3.5" rx="1.75" stroke="currentColor" strokeWidth="0.3" fill="none" className="text-yellow-400" />
+                        <rect x="10" y="25" width="4" height="4" rx="2" stroke="currentColor" strokeWidth="0.3" fill="none" className="text-slate-300" />
+                        <rect x="50" y="45" width="3" height="3" rx="1.5" stroke="currentColor" strokeWidth="0.3" fill="none" className="text-slate-200" />
+                        <rect x="80" y="65" width="3.5" height="3.5" rx="1.75" stroke="currentColor" strokeWidth="0.3" fill="none" className="text-slate-100" />
                         
                         {/* Mystical flow indicators */}
-                        <path d="M20,15 Q35,10 50,15 Q65,20 80,15" stroke="currentColor" strokeWidth="0.2" fill="none" className="text-orange-400" strokeDasharray="2,1" />
-                        <path d="M10,85 Q30,80 50,85 Q70,90 90,85" stroke="currentColor" strokeWidth="0.2" fill="none" className="text-yellow-400" strokeDasharray="1,2" />
+                        <path d="M20,15 Q35,10 50,15 Q65,20 80,15" stroke="currentColor" strokeWidth="0.2" fill="none" className="text-slate-300" strokeDasharray="2,1" />
+                        <path d="M10,85 Q30,80 50,85 Q70,90 90,85" stroke="currentColor" strokeWidth="0.2" fill="none" className="text-slate-200" strokeDasharray="1,2" />
                       </svg>
                     </div>
                     
                     {/* Stream Flow Symbol */}
                     <div className="absolute top-2 right-2 opacity-20 group-hover:opacity-40 transition-opacity duration-300">
                       <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                        <path d="M3,12 Q8,8 12,12 T21,12" stroke="currentColor" strokeWidth="1" className="text-orange-400" />
-                        <path d="M3,8 Q8,4 12,8 T21,8" stroke="currentColor" strokeWidth="0.8" className="text-red-400" />
-                        <path d="M3,16 Q8,12 12,16 T21,16" stroke="currentColor" strokeWidth="0.8" className="text-yellow-400" />
-                        <circle cx="6" cy="12" r="1" fill="currentColor" className="text-orange-400" />
-                        <circle cx="18" cy="12" r="0.8" fill="currentColor" className="text-yellow-400" />
+                        <path d="M3,12 Q8,8 12,12 T21,12" stroke="currentColor" strokeWidth="1" className="text-slate-300" />
+                        <path d="M3,8 Q8,4 12,8 T21,8" stroke="currentColor" strokeWidth="0.8" className="text-slate-200" />
+                        <path d="M3,16 Q8,12 12,16 T21,16" stroke="currentColor" strokeWidth="0.8" className="text-slate-100" />
+                        <circle cx="6" cy="12" r="1" fill="currentColor" className="text-slate-300" />
+                        <circle cx="18" cy="12" r="0.8" fill="currentColor" className="text-slate-200" />
                       </svg>
                     </div>
                     
@@ -189,29 +189,29 @@ const TheNexusStream: React.FC = () => {
                           />
                         </div>
                         <div className="flex-1">
-                          <h3 className="font-semibold text-white group-hover:text-orange-100 transition-colors duration-300">
+                          <h3 className="font-semibold text-white group-hover:text-white transition-colors duration-300">
                             {panel.title}
                           </h3>
                         </div>
                       </div>
                       
-                      <p className="text-orange-400/70 text-sm mb-4 group-hover:text-orange-300/80 transition-colors duration-300 min-h-[2.5rem]">
+                      <p className="text-slate-300/70 text-sm mb-4 group-hover:text-slate-200/80 transition-colors duration-300 min-h-[2.5rem]">
                         {panel.description}
                       </p>
                       
                       {/* Empty Data Container */}
                       <div className="h-24 rounded-lg bg-slate-800/20 border border-slate-700/30 flex items-center justify-center">
                         <div className="text-center">
-                          <div className="w-8 h-8 mx-auto mb-2 rounded-full bg-gradient-to-r from-orange-400/20 to-red-400/20 flex items-center justify-center">
-                            <Radio size={16} className="text-orange-400/60" />
+                          <div className="w-8 h-8 mx-auto mb-2 rounded-full bg-gradient-to-r from-slate-300/20 to-slate-200/20 flex items-center justify-center">
+                            <Radio size={16} className="text-slate-300/60" />
                           </div>
-                          <span className="text-xs text-orange-400/50 font-mono">AWAITING LIVE STREAM</span>
+                          <span className="text-xs text-slate-300/50 font-mono">AWAITING LIVE STREAM</span>
                         </div>
                       </div>
                     </div>
                     
                     {/* Corner Energy Indicators */}
-                    <div className="absolute top-2 right-2 w-2 h-2 bg-orange-400/60 rounded-full animate-ping"></div>
+                    <div className="absolute top-2 right-2 w-2 h-2 bg-slate-300/60 rounded-full animate-ping"></div>
                   </div>
                 </div>
               );

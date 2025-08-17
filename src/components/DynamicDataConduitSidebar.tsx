@@ -78,7 +78,7 @@ const DynamicDataConduitSidebar: React.FC<SidebarProps> = ({ isOpen, setIsOpen, 
       icon: Waves, 
       label: 'The Nexus Stream', 
       description: 'Real-time system monitoring',
-      color: 'from-coral-200/25 via-salmon-300/20 to-peach-200/30',
+      color: 'from-slate-100/25 via-slate-200/20 to-slate-300/25',
       dataFlow: 'STREAM_007'
     },
     { 
