@@ -1,19 +1,5 @@
 import React from 'react';
-import { 
-  Waves, 
-  Activity, 
-  Monitor, 
-  Users, 
-  Brain, 
-  BellRing, 
-  GitBranch,
-  TrendingUp,
-  AlertTriangle,
-  Network,
-  Zap,
-  Radio,
-  Pulse
-} from 'lucide-react';
+import { Waves, Activity, Monitor, Users, Brain, BellRing, GitBranch, TrendingUp, AlertTriangle, Network, Zap, Radio, HeartPulse as Pulse } from 'lucide-react';
 
 const TheNexusStream: React.FC = () => {
   const realTimeMonitoringPanels = [
