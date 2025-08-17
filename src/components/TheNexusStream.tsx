@@ -297,7 +297,6 @@ const TheNexusStream: React.FC = () => {
           </div>
           
           {/* System Status Footer */}
-          <div className="mt-6 p-4 rounded-xl bg-gradient-to-r from-slate-900/60 to-slate-800/60 border border-slate-300/15">
           <div className="mt-6 p-4 rounded-xl bg-gradient-to-r from-slate-900/60 to-slate-800/60 border border-stone-800/15">
             <div className="flex items-center justify-between text-xs">
               <span className="text-stone-400/70 font-mono">
